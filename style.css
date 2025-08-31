@@ -1,0 +1,26 @@
+body {margin:0;}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: larger;
+  font-family: courtier;
+}
+li a:hover:not(.Aktiv) {
+  background-color: #44444E
+}
+.Aktiv {
+  background-color: beige;
+}

@@ -20,6 +20,7 @@ li a {
 }
 li a:hover:not(.Aktiv) {
   background-color: #44444E
+  color: #333;
 }
 .Aktiv {
   background-color: beige;

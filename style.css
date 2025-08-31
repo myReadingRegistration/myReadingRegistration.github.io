@@ -19,7 +19,7 @@ li a {
   font-family: courtier;
 }
 li a:hover:not(.Aktiv) {
-  background-color: #44444E
+  background-color: #44444E;
   color: #333;
 }
 .Aktiv {

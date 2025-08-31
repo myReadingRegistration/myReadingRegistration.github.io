@@ -25,3 +25,27 @@ li a:hover:not(.Aktiv) {
   background-color: beige;
   color: #333;
 }
+* {box-sizing: border-box;}
+.pic {
+  float:left;
+  width:30%;
+  height:auto;
+  background-color:#333;
+}
+.pic img {width:100%}
+.textPic {
+  float:left;
+  width:70%;
+  height:auto;
+}
+.textPic p {
+  padding-left:10px;
+  padding-top:0;
+  margin-top:0;
+}
+@media screen and (max-width: 700px) {
+  .pic {float:none;width:100%}
+  .textPic {float:none;width:100%;margin-top:10px;}
+  li a {float:none;}
+  nav {position: static;}
+}

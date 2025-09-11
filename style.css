@@ -44,7 +44,7 @@ li a:hover:not(.Aktiv) {
   margin-top:0;
 }
 about-h1 {
-  display:static;}
+  display:block;}
 @media screen and (max-width: 700px) {
   .pic {float:none;width:100%}
   .textPic {float:none;width:100%;margin-top:10px;}
